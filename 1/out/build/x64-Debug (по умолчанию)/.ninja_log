@@ -1,0 +1,97 @@
+# ninja log v5
+0	49	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+2	284	626267832	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+0	523	626267832	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+523	1955	626267833	bin.exe	226385f62ef4448a
+231	453	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+62	1244	626486266	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+1244	3391	626486268	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	221	626486336	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+221	596	626486337	bin.exe	226385f62ef4448a
+0	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	71	626486418	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+71	315	626486418	bin.exe	226385f62ef4448a
+1	155	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	1241	626491612	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+1242	2797	626491613	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	64	626491673	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+64	332	626491673	bin.exe	226385f62ef4448a
+1	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	64	626491721	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+65	290	626491721	bin.exe	226385f62ef4448a
+0	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	88	626491753	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+88	340	626491753	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	91	626491802	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+91	353	626491802	bin.exe	226385f62ef4448a
+1	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	70	626491835	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+70	351	626491835	bin.exe	226385f62ef4448a
+239	407	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	892	626548317	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+892	3619	626548319	bin.exe	226385f62ef4448a
+1	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	694	626548493	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+695	1253	626548493	bin.exe	226385f62ef4448a
+0	20	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	663	626548526	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+664	925	626548526	bin.exe	226385f62ef4448a
+1	20	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	586	626548899	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+2	682	626548899	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+682	1072	626548900	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	1063	626552885	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+1064	1344	626552885	bin.exe	226385f62ef4448a
+1	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	718	626552916	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+0	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	696	626552946	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+1	20	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+2	744	626553031	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+0	746	626553031	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+746	1185	626553031	bin.exe	226385f62ef4448a
+1	20	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	640	626553050	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+640	938	626553050	bin.exe	226385f62ef4448a
+1	20	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	82	626553063	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+82	392	626553063	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	18	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	845	626561183	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+846	1246	626561184	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	142	626561238	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+142	408	626561238	bin.exe	226385f62ef4448a
+1	21	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	185	626561274	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+185	387	626561274	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	22	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	427	626561449	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+427	659	626561449	bin.exe	226385f62ef4448a
+1	21	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	20	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	589	626561804	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+589	882	626561804	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	708	626562039	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+708	958	626562039	bin.exe	226385f62ef4448a
+0	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	951	626562966	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+952	1204	626562966	bin.exe	226385f62ef4448a
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	1061	626564822	CMakeFiles/bin.dir/src/memory/memory.c.obj	9ccdd1c4fc7ae086
+1062	1265	626564823	bin.exe	226385f62ef4448a
+31	152	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+1	19	0	C:/Users/Nikita/source/repos/operating-systems/1/out/build/x64-Debug (по умолчанию)/CMakeFiles/cmake.verify_globs	33c9f513514f9f36
+0	1117	627097168	CMakeFiles/bin.dir/src/main.c.obj	8088bfc5fc8c90a
+1117	3994	627097170	bin.exe	226385f62ef4448a
