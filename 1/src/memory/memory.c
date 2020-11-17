@@ -22,6 +22,14 @@ m_id m_malloc(int size_of_chunk, m_err_code* error) {
     struct block* current_block = begin;
     int result = 0;
 
+    if (begin == NULL){
+        begin = tmp;
+        tmp->memory = _g_allocator_memory + size_of_chunk;
+        
+    }
+    else{
+         result= insertBlock(tmp, current_block, size_of_chunk); 
+    }
    
     if (result) {
         printf("\n%d, %d ", (int)_g_allocator_memory, size_of_chunk);
@@ -40,13 +48,104 @@ m_id m_malloc(int size_of_chunk, m_err_code* error) {
             tmp->prev->isNextNull = 0;
         }
         top = tmp;
-      
+        printf("\n%d, %d ", (int)_g_allocator_memory, size_of_chunk);
+        printf("\n%d ", (int)tmp->memory);
       
      }
  
   *error = M_ERR_OK;
   return (m_id)tmp;
 
+}
+
+int insertBlock(struct block* tmp, struct block* current_block, int size_of_chunk) {
+    int q = (char*)begin->memory - _g_allocator_memory;
+
+    if ((char*)begin->memory - _g_allocator_memory > size_of_chunk) {
+
+        
+
+        printf("\n--------------------------------------------\n");
+        //printf(q);
+        printf("\n--------------------------------------------\n");
+        /*printf("test start --------------------------------------------------\n");
+        printf(_g_allocator_memory);
+        printf("\nasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd\n");
+        printf((char*)begin->memory);
+        printf("\n");
+        printf("test end--------------------------------------------------------\n");*/
+
+
+        tmp->memory = _g_allocator_memory + size_of_chunk;
+        tmp->size = size_of_chunk;
+        tmp->isNextNull = 1;
+        tmp->next = begin;
+        tmp->prev = NULL;
+
+        begin->prev = tmp;
+        begin = tmp;
+        return 1;
+    
+    }
+    else if ((char*)begin->memory - _g_allocator_memory == size_of_chunk) {
+
+        /*printf("-----------------------test if --------------------------------------------------\n");
+        printf(_g_allocator_memory);
+        printf("\nasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd\n");
+        printf((char*)begin->memory);
+        printf("\n");
+        printf("-----------------------test end- if-------------------------------------------------------\n");*/
+   
+
+        tmp->memory = _g_allocator_memory + size_of_chunk;
+        tmp->size = size_of_chunk;
+        tmp->isNextNull = 0;
+        tmp->next = begin;
+
+        tmp->prev = NULL;
+
+        begin->prev = tmp;
+        begin = tmp;
+        return 1;
+    }
+   
+    while (current_block != top) {
+        
+        if (current_block->isNextNull == 1 &&  current_block->next != NULL)
+        {
+            if ((int)current_block->next->memory - (int)current_block->memory - current_block->next->size  > size_of_chunk)
+            {
+
+                tmp->memory = (char*)current_block->memory + size_of_chunk;
+                tmp->size = size_of_chunk;
+                tmp->isNextNull = 1;
+                tmp->next = current_block->next;
+                tmp->prev = current_block;
+
+                current_block->isNextNull = 0;
+                current_block->next->prev = tmp;
+                current_block->next = tmp;
+                return 1;
+            }
+            else if ((int)current_block->next->memory - (int)current_block->memory - current_block->next->size == size_of_chunk)
+            {
+                tmp->memory = (char*)current_block->memory + size_of_chunk;
+                tmp->size = size_of_chunk;
+                current_block->isNextNull = 0;
+                tmp->isNextNull = 0;
+                tmp->next = current_block->next;
+                tmp->prev = current_block;
+
+                current_block->next->prev = tmp;
+                current_block->next = tmp;
+                return 1;
+            }
+        }
+
+        current_block = current_block->next;
+
+    }
+    return 0;
 }
 
 

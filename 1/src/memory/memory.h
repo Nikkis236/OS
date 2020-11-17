@@ -21,6 +21,7 @@ struct block {
 	
 };
 
+int insertBlock(struct block*, struct block*, int);
 
 // Allocates a chunk in sandbox memory
 // @param size_of_chunk Desired size in bytes to be allocated in sandbox memory
